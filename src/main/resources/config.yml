@@ -1,0 +1,8 @@
+kick-message: "\n&cLooks like you're trying to UUID Spoof.\nPlease connect to our Proxy with the ip: &7play.example.com"
+
+staff-alert-message: '[STAFF] &7%player% &ctried to UUID Spoof.'
+
+# NOTE: Your punishment commands must be compatible with banning uuid.
+ban-button: '&c&l[BAN]'
+ban-reason: 'UUID Spoofing'
+silent-bans: false

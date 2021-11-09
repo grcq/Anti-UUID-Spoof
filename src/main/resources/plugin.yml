@@ -1,0 +1,5 @@
+name: AntiUUIDSpoof
+version: '${project.version}'
+main: me.gamer.antiuuidspoof.AntiUUIDSpoof
+authors: [ GamerProPlaysYT ]
+description: A plugin which prevents UUID Spoof. Simply kicks the player when attempting to uuid spoof.
