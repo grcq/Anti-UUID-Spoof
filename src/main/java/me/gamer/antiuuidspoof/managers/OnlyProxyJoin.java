@@ -1,11 +1,7 @@
 package me.gamer.antiuuidspoof.managers;
 
 import me.gamer.antiuuidspoof.AntiUUIDSpoof;
-import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerLoginEvent;
-
-import java.net.InetAddress;
-import java.util.List;
 
 public class OnlyProxyJoin {
 
@@ -32,6 +28,6 @@ public class OnlyProxyJoin {
 
         final String address = e.getAddress().toString().replace("/", "");
 
-        return !address.equalsIgnoreCase("localhost") && !address.equalsIgnoreCase("127.0.0.1") && !address.equalsIgnoreCase("0.0.0.0") && !address.equalsIgnoreCase("192.168.0.1") && !address.equalsIgnoreCase("192.168.0.0");
+        return !address.equalsIgnoreCase("0:0:0:0:0:0:0:1") && !address.equalsIgnoreCase("localhost") && !address.equalsIgnoreCase("127.0.0.1") && !address.equalsIgnoreCase("0.0.0.0") && !address.equalsIgnoreCase("192.168.0.1") && !address.equalsIgnoreCase("192.168.0.0");
     }
 }
